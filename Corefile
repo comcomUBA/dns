@@ -1,0 +1,8 @@
+comcom.dc.uba.ar:53 {
+    auto comcom.dc.uba.ar {
+        directory /root (.*).zone$ {1}.dc.uba.ar
+        reload 5s
+    }
+    log
+    errors
+}
