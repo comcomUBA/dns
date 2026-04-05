@@ -4,10 +4,7 @@ services:
     ports:
       - "53:53/udp"
     volumes:
-      - type: bind
-        source: .
-        target: /root
-        read_only: true
+      - .:/root:ro
     command: "-conf /root/Corefile"
     healthcheck:
         disable: true
