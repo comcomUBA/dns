@@ -1,0 +1,8 @@
+services:
+  dns:
+    image: "coredns/coredns:latest"
+    ports:
+      - "53:53/udp"
+    volumes:
+      - .:/root
+    command: "-conf /root/Corefile"
