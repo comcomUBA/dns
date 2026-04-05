@@ -6,3 +6,5 @@ services:
     volumes:
       - .:/root
     command: "-conf /root/Corefile"
+    healthcheck:
+        disable: true
