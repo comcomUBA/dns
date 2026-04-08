@@ -1,5 +1,5 @@
 $TTL 86400
-@   IN SOA   comcom.ns.vice.ar. iglosiggio.dc.uba.ar. 2026040502 7200 600 604800 300
-    IN NS    comcom.ns.vice.ar.
+@   IN SOA   ns.comcom.vice.ar. iglosiggio.dc.uba.ar. 2026040801 7200 600 604800 300
+    IN NS    ns.comcom.vice.ar.
     IN CNAME iglosiggio.github.io.
 www IN CNAME iglosiggio.github.io.
