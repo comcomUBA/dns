@@ -11,3 +11,4 @@ services:
     command: "-conf /root/Corefile"
     healthcheck:
         disable: true
+    restart: unless-stopped
